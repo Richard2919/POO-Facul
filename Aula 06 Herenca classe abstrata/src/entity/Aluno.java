@@ -31,9 +31,4 @@ public class Aluno extends Pessoa{
             this.falar(pergunta);
         }
     }
-
-    @Override
-    public void falar(String fala) {
-        System.out.println("ALUNO: " + this.getNome() + ": " + fala);
-    }
 }

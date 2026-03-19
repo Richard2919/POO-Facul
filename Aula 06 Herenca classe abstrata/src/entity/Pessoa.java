@@ -1,6 +1,6 @@
 package entity;
 
-public abstract class Pessoa {
+public class Pessoa {
     private String nome;
     private String cpf;
     private int idade;
@@ -55,5 +55,7 @@ public abstract class Pessoa {
                 '}';
     }
 
-    public abstract void falar(String fala);
+    public void falar(String fala){
+        System.out.println(this.getNome() + ": " + fala);
+    }
 }
